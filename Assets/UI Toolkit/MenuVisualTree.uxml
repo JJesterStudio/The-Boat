@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MenuStyle.uss?fileID=7433441132597879392&amp;guid=7a3999ff96ce1364d91668957c5312ed&amp;type=3#MenuStyle"/>
+    <ui:VisualElement name="SailsUnfurling" class="container" style="position: relative;">
+        <ui:Label text="0" name="Value" class="textInfo"/>
+        <ui:Label text="Unfurling: " name="" class="textInfo"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="SailsRotation" class="container" style="position: relative;">
+        <ui:Label text="0" name="Value" class="textInfo"/>
+        <ui:Label text="Rotation: " name="" class="textInfo" style="-unity-text-align: middle-left;"/>
+    </ui:VisualElement>
+</ui:UXML>

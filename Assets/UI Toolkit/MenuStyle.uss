@@ -1,0 +1,38 @@
+:root {
+}
+
+.textInfo {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-text-outline-width: 1px;
+    text-overflow: clip;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-text-align: lower-left;
+    bottom: 0;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    align-content: auto;
+    align-items: auto;
+    flex-direction: column-reverse;
+    overflow: visible;
+    opacity: 1;
+    display: flex;
+    visibility: visible;
+    transform-origin: left bottom;
+    translate: 0 0;
+    width: 250px;
+    min-width: 250px;
+}
+
+.container {
+    bottom: -944px;
+    align-content: auto;
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: row-reverse;
+    position: relative;
+}
